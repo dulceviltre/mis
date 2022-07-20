@@ -1,0 +1,60 @@
+/*
+notas animaciones
+
+transform (es para transformar bidimencional y tridimencional)
+Funcion( transform: funcion; funcion([scale:crece y decrece(#)], [skew: sesgo movimiento en cursiva(grado)]
+[rotate: rotación(grd)], [translate: traslación(px)], transform-origin: moviento segun el origen(transform-origin: bottom right 60px),
+[https://developer.mozilla.org/es/docs/Web/CSS/transform#s%C3%ADntaxis] documentacion extra ) )
+*/
+
+
+/*para las animaciones usaremos la sigiente estructura 
+@keyframes(nombre){
+} ejemplo anterior
+paso1
+*/
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+
+}
+
+
+@keyframes logo{
+    0%{ opacity: 0% }
+    25% { transform: scale(1.2); opacity: 100%; }
+    100% { opacity: 0%; }
+
+}
+
+/*
+paso2
+animation-name: nombre
+animation-duration:duracion
+animation-intiration-count: cantidad de veces que se repite
+animation-direccion:como se ve la animacion se ve mientras se reproduce
+*/
+
+body{
+    margin: 1em;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav, a{
+    display: flex;
+    margin: 1em;
+}
+
+header img{
+    animation-name: logo;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
