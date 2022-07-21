@@ -22,6 +22,12 @@ paso1
 
 }
 
+*{
+    --rojo:#FF0000;
+    --Gainsboro:#DCDCDC;
+    --LavenderBlush: #FFF0F5;
+    --Black:#000000;
+}
 
 @keyframes logo{
     0%{ opacity: 0% }
@@ -57,4 +63,38 @@ header img{
     animation-duration: 3s;
     animation-iteration-count: infinite;
     animation-direction: normal;
+    width: 5%;
+    height: 5%;
+    margin: 2em;
 }
+
+/*transition
+
+- definir el elemento y propiedad que queremos manipular 
+ej/ button{ background-color:(); color: ();
+
+*/
+
+.transcicion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button{
+    padding: 1em;
+    margin: 0.5em;
+    width: 15%;
+    height: 15%;
+    background-color: var(--rojo);
+    border-radius: 0.5em;
+    border: var(--rojo);
+    color: var(--Gainsboro);
+}
+
+button:hover{
+    background-color: var(--LavenderBlush);
+    color: var(--Black);
+    border:  solid var(--Black);
+}
+
