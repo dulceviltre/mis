@@ -85,4 +85,12 @@ git branch -m
 
 https://docs.google.com/document/d/1xbdQ3bgHEW81R-Et2CYXXen2vU1I7TTLy7vc_eQcEqU/edit#
 
+# sass
+para declarar una variable ponemos signo ($) valor descriptivo
+ej: $card: red;
+se puedes almacenar fuentes y medidas.
+# anidar en sass
+se usa el caracter (&) para hacer referencia al padre. 
+
+
 
