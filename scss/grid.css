@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+:root {
+  --Gainsboro:#DCDCDC;
+  --WhiteSmoke:#F5F5F5;
+  --LightSteelBlue:#B0C4DE;
+}
+
+body {
+  background-color: var(--Gainsboro);
+}
+body header {
+  background-color: var(--WhiteSmoke);
+}
+body header .logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body header .logo img {
+  width: 10%;
+  height: 10%;
+  margin: 1em 10em;
+}
+body header .logo button {
+  padding: 1em;
+  border: none;
+  width: 10%;
+  border-radius: 5%;
+  background-color: var(--LightSteelBlue);
+}
+body main .gallery {
+  display: grid;
+}/*# sourceMappingURL=grid.css.map */
