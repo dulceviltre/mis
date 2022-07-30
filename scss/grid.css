@@ -9,6 +9,15 @@
   --Gainsboro:#DCDCDC;
   --WhiteSmoke:#F5F5F5;
   --LightSteelBlue:#B0C4DE;
+  --DeepSkyBlue:#00BFFF;
+  --RebeccaPurple:	#663399;
+  --BlueViolet:	#8A2BE2;
+  --DarkViolet:	#9400D3;
+  --DarkOrchid:	#9932CC;
+  --DarkMagenta:	#8B008B;
+  --Purple:	#800080;
+  --Indigo:	#4B0082;
+  --SlateBlue:	#6A5ACD;
 }
 
 body {
@@ -35,5 +44,53 @@ body header .logo button {
   background-color: var(--LightSteelBlue);
 }
 body main .gallery {
+  margin: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body main .gallery h1 {
+  margin: 1em;
+}
+body main .gallery img {
+  width: 30%;
+  display: inline-flex;
+}
+body main .contained {
+  margin: 2em;
+  border: var(--DeepSkyBlue) 0.4em solid;
   display: grid;
+  grid-template-columns: 1fr 2fr 3fr;
+  grid-template-rows: 4em 5em 2em 3em;
+  grid-gap: 1em;
+}
+body main .contained .items_1 {
+  background-color: var(--BlueViolet);
+  text-align: center;
+  grid-column: 1/4;
+  grid-row: 1/2;
+}
+body main .contained .items_2 {
+  background-color: var(--DarkMagenta);
+  text-align: center;
+  grid-column: 1/1;
+  grid-row: 2/8;
+}
+body main .contained .items_3 {
+  background-color: var(--Indigo);
+  text-align: center;
+  grid-column: 2/2;
+  grid-row: 2/2;
+}
+body main .contained .items_4 {
+  background-color: var(--SlateBlue);
+  text-align: center;
+  grid-column: 3/3;
+  grid-row: 2/4;
+}
+body main .contained .items_5 {
+  background-color: var(--RebeccaPurple);
+  text-align: center;
+  grid-column: 2/3;
+  grid-row: 4/4;
 }/*# sourceMappingURL=grid.css.map */
