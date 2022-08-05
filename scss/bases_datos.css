@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+* {
+  --LemonChiffon:#FFFACD;
+}
+
+header {
+  margin: 1em;
+  background-color: var(--LemonChiffon);
+}
+header img {
+  width: 10%;
+  height: 10%;
+}/*# sourceMappingURL=bases_datos.css.map */
