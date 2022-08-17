@@ -131,4 +131,31 @@ ej/ button{ background-color:(); color: ();
   padding: 2em;
   color: #000000;
   text-overflow: ellipsis;
+}
+
+.bas_dat {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.bas_dat h2 {
+  background-color: #FFA07A;
+  border-radius: 1em;
+  margin: 2em;
+  padding: 1em;
+  text-align: center;
+  width: 40%;
+}
+
+.prog_imper {
+  background-color: var(--LightSalmon);
+  border-radius: 1em;
+  border: none;
+  font-size: 2em;
+  padding: 1em;
+  margin: 1em;
+  text-decoration: none;
+  text-align: center;
+  color: #000000;
 }/*# sourceMappingURL=estilos.css.map */
