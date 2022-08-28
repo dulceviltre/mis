@@ -12,7 +12,255 @@
         <img src="img/base de datos/2.png" alt="foto">
     </header>
     <main>
+        <p>
+            las bases de datos surgieron por tener seguridad, control y escalabilidad. La misma nos permite Modedar, Guardad y Consultar datos. una base de datos es una pieza de software que nos permite almacenar información. 
+        </p>
+        <p>
+            Programa capaz de almacenar gran cantidad de datos, relacionados y estructurados, que pueden ser consultados rápidamente de acuerdo con las características selectivas que se deseen.
+        </p>
+        <p>
+            Podemos decir que es un conjunto de datos pertenecientes a un mismo contexto organizados para un propósito específico.
+            Una base de datos nos permite:
+            <ol>
+                <li>Almacenar (agregar, modificar y eliminar) datos.</li>
+                <li>Acceder a los datos.</li>
+                <li>Manipularlos y combinarlos.</li>
+                <li>Analizar datos.</li>
+                <li>Entre otras cosas más.</li>
+            </ol>
+            Bases de datos las hay de dos tipos: relacionales y no relacionales.
+            ventajas
+            <ol>
+                <li>Redundancia de datos</li>
+                <li>Evita la inconsistencia </li>
+                <li>Integridad del dato</li>
+                <li>Coherencia de los datos</li>
+            </ol>
+        </p>
+        <img src="img/base de datos/3.png" alt="foto">
 
+        <h2> motores de base de bases_datos</h2>
+        <p>Un motor de base de datos es el componente de software subyacente que un sistema de administración de la base de datos utiliza para crear, leer, actualizar y eliminar datos de una base de datos.</p>
+        <p>sistema de de gestió de bases de datos que se encarga de almacenar, proteger y procesar los datos </p>
+        <p>Los motores de bases de datos poseen distintas capacidades.</p>
+        <ol>
+            <li>consistencia de los datos</li>
+            <li>respaldo</li>
+            <li>acceso concurente</li>
+            <li>Integridad</li>
+            <li>seguridad</li>
+            <li>tiempo de rspuesta</li>
+        </ol>
+        <img src="img/base de datos/4.png" alt="fotos">
+        <p>
+            Modelos de bases de datos
+            ¿Cómo se comienza a desarrollar una base de datos?
+
+            Normalmente se inicia con un requerimiento o necesidad de una aplicación o sistema.
+
+            Lo importante es tener en claro qué es lo que se tiene que almacenar, y por ello que este requerimiento tiene que estar lo más detallado posible.
+
+            Una vez que tenemos el requerimiento, se inicia la etapa de modelado. Este documento nos permite validar que entendimos el requerimiento y empezar a pensar cómo lo vamos a implementar.
+        </p>
+        <p>Modelado de datos</p>
+        <p>
+            El modelado de datos es una manera de
+estructurar y organizar los datos para que se
+puedan utilizar fácilmente por las bases de datos.
+        </p>
+        <ol>
+            <li>Beneficios</li>
+            <li>Registrar los requerimientos de datos de un proceso de negocio.</li>
+            <li>Se puede descomponer un proceso complejo en partes.</li>
+            <li>Permite observar patrones.</li>
+            <li>Sirve de plano para construir la base de datos física.</li>
+            <li>El modelo de datos ayuda a las empresas a comunicarse dentro y entre las organizaciones.</li>
+            <li>Proporciona soporte ante los cambios de requerimientos
+                del negocio o aplicaciones.</li>
+        </ol>
+        <p>tipos de Modelos
+            <p>conceptual</p>
+            <p>logico
+                <p>
+                    Un modelo de datos lógico describe los datos con el mayor detalle posible,
+                    independientemente de cómo se implementarán físicamente en la base de
+                    datos.
+                    Describe los elementos importantes del negocio, qué significa cada objeto,
+                    su nivel de detalle, cómo se relacionan entre sí y sus restricciones.
+                    <ul>
+                        Las características de un modelo de datos lógicos incluyen:
+                        <li>Se definen cuáles son los conceptos importantes sobre los que hay
+                    que almacenar información. Estos elementos se denominan
+                    <strong>entidades.</strong> </li>
+                        <li>Se especifican todos los <strong>atributos</strong> para cada una de las entidades.</li>
+                        <li>Se conectan las entidades mediante <strong>relaciones.</strong> </li>
+                        <li>Se especifica la <strong>clave principal</strong>  para cada entidad</li>
+                        <li>Se especifican las <strong>claves externas </strong> (claves que identifican la relación entre diferentes entidades).</li>
+                        <li>La normalización ocurre en este nivel</li>
+                    </ul>
+                </p>
+            </p> 
+            <p>Físico
+                El modelo de datos físicos representa <strong>cómo</strong>  se construirá el modelo en la
+                base de datos.
+                Un modelo de base de datos física muestra todas las estructuras de tablas,
+                incluidos el nombre de columna, el tipo de datos de columna, las
+                restricciones de columna, la clave principal, la clave externa y las relaciones
+                entre las tablas.
+                <ul>
+                    Las características de un modelo de datos físicos incluyen:
+                    <li>Especificación de todas las tablas y columnas.</li>
+                    <li>Las claves externas se usan para identificar relaciones entre tablas.</li>
+                    <li>La desnormalización puede ocurrir según los requisitos del usuario.</li>● 
+                </ul>
+                <p>
+                    Los pasos para el diseño del modelo de datos físicos son los siguientes:
+                    <ul>
+                        <li>Convertir entidades en tablas.</li>
+                        <li>Convertir relaciones en claves externas.</li>
+                        <li>Convertir atributos en columnas.</li>
+                        <li>Modificar el modelo de datos físicos en función de las restricciones /
+                        requisitos físicos.</li>
+                    </ul>
+                </p>
+            </p>
+        </p>
+        <img src="img/base de datos/5.png" alt="foto">
+        <h2>MODELADO DE BD</h2>
+        <p>El modelo de datos <strong>entidad-relació</strong> n se
+            basa en una percepción del mundo
+            real, que consiste en un conjunto de
+            objetos básicos llamados <strong>entidades</strong>  y de
+            <strong>relacione</strong> s entre ellos. Se emplea para
+            interpretar, especificar y documentar
+            los requerimientos para los sistemas de
+            bases de datos.</p>
+            <p>
+                Entidad:Una <strong>entidad</strong>  es un objeto, real o
+                abstracto, acerca del cual se
+                recoge información de interés
+                para la base de datos. 
+
+                <ul>
+                    <p>Tipos</p>
+                    <li>Entidades<strong>fuertes</strong> : tienen
+                        existencia por sí mismas.
+                        (alumnos, empleados,
+                        departamento.)
+                        </li>
+                    <li> Entidades<strong>débiles</strong> :
+                        dependen de otra entidad
+                        para su existencia (hijos de
+                        empleados)</li>
+                </ul>
+            </p>
+            <p>
+                ATRIBUTOS:Los atributos describen las
+                características de una entidad.
+                Por ejemplo:
+                <STRong>Entidad</STRong> : clientes
+                <strong>Atributos</strong> : legajo, nombre, domicilio, etc.
+                <ul>Tipos
+                    <li>Atributo con simple valor:Cuando un atributo tiene un simple
+                        valor para una identidad particular.
+                        Por ejemplo:
+                        Una persona que tiene un valor por su
+                        fecha de nacimiento y la fecha de
+                        nacimiento es un simple valor de la
+                        persona. </li>
+                    <li>Atributo multivalor:Cuando un atributo tiene una
+                        serie de valores para
+                        identificarse.
+                        Por ejemplo:
+                        El atributo teléfonos de un cliente
+                        que puede contener uno o más
+                        números de teléfono.</li>
+                    <li>Atributos derivados:Atributos derivados:
+                        Cuando los valores de un atributo
+                        son afines y el valor para este
+                        tipo de atributo se puede derivar
+                        de los valores de otros atributos.
+                        Por ejemplo:
+                        La edad y fecha de nacimiento de
+                        una persona; si conocemos la fecha
+                        de nacimiento, podemos calcular su
+                        edad, en este caso se dice que la
+                        edad es un atributo derivado del
+                        atributo fecha de nacimiento.</li>
+                    <li>Atributo clave:Atributo clave:
+                        Las entidades pueden contener un
+                        atributo que identifica cada una
+                        de las ocurrencias de la entidad. Es
+                        decir, usualmente contienen un
+                        atributo que diferencia los ítems
+                        entre sí.
+                        Por ejemplo:
+                        En la entidad clientes el atributo
+                        documento puede ser un atributo
+                        clave. No necesariamente el atributo
+                        clave debe ser un solo atributo, hay
+                        casos en que varios atributos forman
+                        una llave. Por ejemplo: tipo más
+                        número de factura.</li>
+                    <li>Atributos nulos:Se usa cuando una entidad
+                        no tiene valor para un
+                        atributo o que el valor es
+                        desconocido.</li>
+                </ul>
+                <p>LAS CLAVES</p>
+                <ul>
+                    <li>Clave candidata:
+                        Se compone por uno o más
+                        atributos cuyos valores
+                        identifican unívocamente a
+                        cada ocurrencia de la entidad,
+                        sin que ningún subconjunto de
+                        ellos pueda realizar esta misma
+                        función. Una clave candidata es
+                        una posible clave primaria.
+                        Pueden definirse varias claves
+                        candidatas para luego
+                        seleccionar la más adecuada.</li>
+                    <li>Clave primaria:
+                        Está compuesta por uno o
+                        más atributos cuyos valores
+                        identifican unívocamente
+                        a cada ocurrencia de la
+                        entidad. No pueden
+                        contener valores nulos ni
+                        repetidos. Esta clave es una
+                        de aquellas que
+                        anteriormente se
+                        seleccionaron como
+                        candidata.</li>
+                    <li>Superclave:
+                        es el conjunto de uno o más
+                        atributos que, tomados
+                        colectivamente, permiten
+                        identificar de forma unívoca
+                        a la ocurrencia de una
+                        entidad. Se utiliza
+                        generalmente en las tablas
+                        de relación, este concepto
+                        se desarrollará en las
+                        próximas clases.</li>
+                </ul>
+            </p>
+            <p>
+                Clave primaria
+Una Clave Primaria o <strong>Primary Key</strong>  es un
+campo que identifica a cada fila de una tabla de
+forma única. Es decir que No puede haber dos
+filas en una tabla que tengan la misma <strong>PK</strong> .
+            </p>
+            <p>tipo de datos</p>
+            <a href="https://docs.google.com/spreadsheets/d/1HjzORpKvu20rTDfPmHcVOzSgPNOO-cBT/edit#gid=1195624080">tipo de datos</a>
+            <h2>RELACIONES</h2>
+            <img src="img/base de datos/6.png" alt="foto">
+            <p>poner casos</p>
+            <h2>SQL</h2>
+            <p>examen</p>
+            <a href="https://drive.google.com/file/d/1VZZZAZtSd87s9cnUt1m0gqveQPP-MKZ3/view" target="_blank" rel="noopener noreferrer"></a>
     </main>
     <footer>
 
